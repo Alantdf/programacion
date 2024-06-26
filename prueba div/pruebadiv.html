@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de DIV</title>
+    <style>
+        .contenedor {
+            border: 1px solid #000;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        .elementos {
+            color: #000;
+            background: linear-gradient(to right, rgb(63, 63, 224), rgb(236, 68, 68)); /* hago un fondo en degrade */
+            padding: 10px;
+            display: flex; /* puedo controlar mejor los elementos */
+            justify-content: space-around; /* hago que las imagenes se separen */
+
+        }
+        .elementos .izquierda {
+            text-align: left; /* muevo Youtube a la izquierda */
+        }
+        .elementos .derecha {
+            text-align: right; /* muevo facebook a la derecha */
+        }
+        .elementos a {
+            color: rgb(48, 238, 48); /* lo dejo en color verde */
+            text-decoration: none; 
+        }
+        .elementos a:hover {
+            text-decoration: underline; /* Hago que al pasar el mouse por el enlace aparezca un delineado */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="elementos">
+            <div class="izquierda">
+                <h2 align="center">Youtube</h2>
+                <p align="center">Hola Gente</p>
+                <p align="center"><a href="https://www.youtube.com/">Youtube</a></p><br>
+                <br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="imagen youtube" width="170">
+            </div>
+            <div class="derecha">
+                <h2 align="center">Facebook</h2>
+                <p align="center">Hola</p>
+                <p align="center"><a href="https://www.facebook.com/">Facebook</a></p>
+                <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yD/r/5D8s-GsHJlJ.png" alt="Facebook" width="160">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
