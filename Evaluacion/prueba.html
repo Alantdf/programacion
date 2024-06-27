@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Web</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(17, 9, 66), rgb(65, 65, 240));
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 40px 0; /* Ajusta el margen superior e inferior de toda la página */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ajusta la altura mínima de la pantalla */
+        }
+        .container {
+            width: 70%;
+            margin: 40 px auto;
+            background-color: rgba(255,255,255,0.6); /* Agrega opacidad */
+            padding: 30px;
+            border-radius: 10px; /* Bordea las esquinas */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Agrega sombreado */
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+            text-align: center; /* Centra el contenido de cada sección */
+        }
+        p {
+            text-align: center; /* Centra los párrafos */
+        }
+        .profile-img, .software-img {
+            display: block;
+            margin: 10px auto;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .software-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .software-img {
+            margin: 10px;
+            max-width: 150px;
+            max-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Portafolio de Desarrollador Web</h1>
+
+        <div class="section">
+            <h2>Datos personales</h2>
+            <img src="perfil.jpg" alt="foto de perfil" width="250" class="profile-img">;
+            <p>Nombre: Peralta Alan</p>
+            <p>Edad: 18</p> 
+        </div>
+
+        <div class="section">
+            <h2>Datos de contacto</h2>
+            <p>Nombre: Peralta Alan</p>
+            <p>Teléfono: (+54) 2964 555096</p>
+            <p>Correo Electrónico: alanyemma123@gmail.com &nbsp; | &nbsp; Instagram: <a href="https://www.instagram.com/alannic_m7/" target="_blank">@alannic_m7</a></p> 
+        </div>        
+
+        <div class="section">
+            <h2>Estudios cursados</h2>
+            <p>Actualmente ninguno, a la espera de egresarme</p>
+        </div>
+
+        <div class="section">
+            <h2>Lenguajes de programación que manejo</h2>
+            <p>Java, HTML</p>
+        </div>
+
+        <div class="section">
+            <h2>Software que manejo correctamente</h2>
+            <div class="center-text software-container">
+                <img src="VISUAL.jpg" alt="visual" width="150" class="software-img">
+                <img src="images.png" alt="Eclipse" width="150" class="software-img">
+                <img src="python.png" alt="Python" width="150" class="software-img">
+                <img src="pseint.jpg" alt="Pseint" width="150" class="software-img">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Enlaces a cuenta de Github</h2>
+            <div class="center-text">
+                <a href="https://github.com/Alantdf" target="_blank">Visita mi cuenta de Github</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Descripción del perfil profesional</h2>
+            <p>Soy un estudiante del colegio Guevara, actualmente curso el último año y lo que más me apasiona es la programación y redes. Me interesa mucho el diseño de páginas web y me gusta aprender a través de videos o búsqueda en internet.</p>
+        </div>
+    </div>
+</body>
+</html>
