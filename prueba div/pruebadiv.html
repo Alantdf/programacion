@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de DIV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #67cff8, #f1b8ef);
+        }
+        header {
+            text-align: center;
+            background-color: rgb(224, 220, 220);
+            padding: 10px; /* Reducido el padding vertical y horizontal */
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        .contenedor {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+        .elementos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .elemento {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .elemento img {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%; /* Ajustado tamaño máximo de la imagen */
+            height: auto; /* Para mantener la proporción */
+        }
+        .elementos a {
+            color: rgb(248, 21, 21); /* Rojo para todos los enlaces */
+            text-decoration: none;
+        }
+        .elementos .elemento:nth-child(2) a {
+            color: rgb(21, 74, 248); /* Azul para el enlace de Facebook */
+        }
+        .elementos a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><strong>Peralta Alan 7°2 &nbsp; | &nbsp; Colegio Guevara </strong></p>
+    </header>
+    <div class="contenedor">
+        <div class="elementos">
+            <div class="elemento">
+                <h2>Youtube</h2>
+                <p>Para ver Videos</p>
+                <p><a href="https://www.youtube.com/">Youtube</a></p><br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="imagen youtube" width="170">
+            </div>
+            <div class="elemento">
+                <h2>Facebook</h2>
+                <p>Para Interactuar</p>
+                <p><a href="https://www.facebook.com/">Facebook</a></p>
+                <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yD/r/5D8s-GsHJlJ.png" alt="Facebook" width="145">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
