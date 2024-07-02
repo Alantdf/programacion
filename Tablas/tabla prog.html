@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas en HTML con Estilos CSS</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ccc2c2;
+        }
+        td {
+            background-color: #f1f1f1;
+        }
+        body {
+            background: linear-gradient(to right, rgb(94, 217, 248), rgb(76, 76, 221));
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2{
+            text-align: center;
+        }
+        header {
+            text-align: center;
+            background-color: #ccc2c2;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><strong>Peralta Alan 7°2 &nbsp; | &nbsp; Colegio Guevara </strong></p>
+    </header>
+    <h1>Tablas</h1>
+
+    <h2>Productos</h2>
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Manzanas</td>
+            <td>10</td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>Bananas</td>
+            <td>6</td>
+            <td>$30.00</td>
+        </tr>
+        <tr>
+            <td>Naranjas</td>
+            <td>8</td>
+            <td>$40.00</td>
+        </tr>
+    </table>
+
+    <h2>Gente</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+        <tr>
+            <td>Alan</td>
+            <td>Peralta</td>
+            <td>18</td>
+            <td>Rio Grande</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Gómez</td>
+            <td>19</td>
+            <td>Ushuaia</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Fernández</td>
+            <td>5</td>
+            <td>Tolhuin</td>
+        </tr>
+    </table>
+</body>
+</html>
